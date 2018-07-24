@@ -18,8 +18,17 @@ public class HomePage {
 	@FindBy(how = How.XPATH, using = "//*[@id=\"search\"]/span/button")
 	WebElement searchBtn;
 
+	@FindBy(how = How.LINK_TEXT, using = "Cameras")
+	WebElement menuBarCameraBtn;
+
 	public void searchForItem(String itemName) {
 		searchBox.sendKeys(itemName);
 		searchBtn.click();
+
+	}
+
+	public void accessToMenuBar() {
+
+		menuBarCameraBtn.click();
 	}
 }

@@ -1,4 +1,4 @@
-package org.renuka.helpers;
+package org.renuka.selenium_helpers;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 public class SeleniumHelper {
 
 	private static WebDriver _driver;
-
 
 	public SeleniumHelper(WebDriver driver) {
 		SeleniumHelper._driver = driver;
@@ -24,6 +23,5 @@ public class SeleniumHelper {
 		JavascriptExecutor jse = (JavascriptExecutor) _driver;
 		jse.executeScript("window.scrollBy(0,250)", "");
 	}
-
 
 }

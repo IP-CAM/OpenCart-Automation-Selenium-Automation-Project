@@ -1,4 +1,4 @@
-package org.renuka.helpers;
+package org.renuka.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

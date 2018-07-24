@@ -1,25 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8717" started-at="2018-07-19T16:47:37Z" finished-at="2018-07-19T16:47:45Z">
+  <suite name="Default suite" duration-ms="6955" started-at="2018-07-24T17:32:36Z" finished-at="2018-07-24T17:32:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8717" started-at="2018-07-19T16:47:37Z" finished-at="2018-07-19T16:47:45Z">
-      <class name="org.renuka.test.RunnerClass">
-        <test-method status="PASS" signature="TestInitialization()[pri:0, instance:org.renuka.test.RunnerClass@548a9f61]" name="TestInitialization" is-config="true" duration-ms="5014" started-at="2018-07-19T22:17:37Z" finished-at="2018-07-19T22:17:42Z">
+    <test name="Default test" duration-ms="6955" started-at="2018-07-24T17:32:36Z" finished-at="2018-07-24T17:32:42Z">
+      <class name="org.renuka.test.OpenCartTests">
+        <test-method status="PASS" signature="TestInitialization()[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="TestInitialization" is-config="true" duration-ms="3750" started-at="2018-07-24T23:02:36Z" finished-at="2018-07-24T23:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestInitialization -->
-        <test-method status="PASS" signature="verifyUserCanAddToCartOneOrMoreProductUsingSearch()[pri:0, instance:org.renuka.test.RunnerClass@548a9f61]" name="verifyUserCanAddToCartOneOrMoreProductUsingSearch" duration-ms="2927" started-at="2018-07-19T22:17:42Z" finished-at="2018-07-19T22:17:45Z">
+        <test-method status="PASS" signature="verifyUserCanAddproductToCartUsingMenuBar(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="verifyUserCanAddproductToCartUsingMenuBar" duration-ms="4" started-at="2018-07-24T23:02:40Z" data-provider="openCartRegression" finished-at="2018-07-24T23:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that user can add to cart one or more products]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserCanAddToCartOneOrMoreProductUsingSearch -->
-        <test-method status="PASS" signature="TestCleanUp()[pri:0, instance:org.renuka.test.RunnerClass@548a9f61]" name="TestCleanUp" is-config="true" duration-ms="760" started-at="2018-07-19T22:17:45Z" finished-at="2018-07-19T22:17:45Z">
+        </test-method> <!-- verifyUserCanAddproductToCartUsingMenuBar -->
+        <test-method status="PASS" signature="verifyUserCanAddproductToCartUsingMenuBar(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="verifyUserCanAddproductToCartUsingMenuBar" duration-ms="1" started-at="2018-07-24T23:02:40Z" data-provider="openCartRegression" finished-at="2018-07-24T23:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that Cash on Delivery option of payment is working fine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddproductToCartUsingMenuBar -->
+        <test-method status="PASS" signature="verifyUserCanAddproductToCartUsingMenuBar(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="verifyUserCanAddproductToCartUsingMenuBar" duration-ms="2069" started-at="2018-07-24T23:02:40Z" data-provider="openCartRegression" finished-at="2018-07-24T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that user can add products to cart using navigation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nikon D300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddproductToCartUsingMenuBar -->
+        <test-method status="PASS" signature="verifyUserCanAddproductToCartUsingMenuBar(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="verifyUserCanAddproductToCartUsingMenuBar" duration-ms="4" started-at="2018-07-24T23:02:42Z" data-provider="openCartRegression" finished-at="2018-07-24T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify that the limit to the number of products a user can by is working correctly by displaying error message and preventing user from buying more than the limit
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddproductToCartUsingMenuBar -->
+        <test-method status="PASS" signature="TestCleanUp()[pri:0, instance:org.renuka.test.OpenCartTests@39aeed2f]" name="TestCleanUp" is-config="true" duration-ms="708" started-at="2018-07-24T23:02:42Z" finished-at="2018-07-24T23:02:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCleanUp -->
-      </class> <!-- org.renuka.test.RunnerClass -->
+      </class> <!-- org.renuka.test.OpenCartTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,4 @@
-package org.renuka.helpers;
+package org.renuka.selenium_helpers;
 
 import java.util.concurrent.TimeUnit;
 
